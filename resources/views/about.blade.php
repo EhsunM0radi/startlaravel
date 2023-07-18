@@ -1,16 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layout.main')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <div>
-        ABOUT US!
-    </div>
-</body>
-
-</html>
+@section('pageTitle','درباره ما')
+@section('content')
+<div>
+    ABOUT US!
+</div>
+@endsection

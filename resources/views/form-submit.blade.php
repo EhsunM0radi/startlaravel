@@ -1,21 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+@php($doNotLoadNavbar = true)
+@extends('layout.main')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+@section('content')
 
-<body>
-
-    <div>
-        <ul>
-            <li>Name: <?= $name ?></li>
-            <li>Last Name: <?= $lname ?></li>
-        </ul>
-    </div>
-
-</body>
-
-</html>
+<div>
+    <ul>
+        <li>Name: {{$name}}</li>
+        <li>Last Name: {{$lname}}</li>
+    </ul>
+</div>
+@endsection
